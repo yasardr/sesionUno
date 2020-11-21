@@ -6,57 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
 
-    <header class="header-container-padre">
-        <a class="logo" href="/"><img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo"></a>
-        <nav class="navbar">
-            <ul>
-                <li><a>Products</a></li>
-                <li><a>Templates</a></li>
-                <li><a>Pricing</a></li>
-                <li><a>Customers</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Resources</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ml-2" href="#">
+            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Products
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Blog Creator</a>
+                        <a class="dropdown-item" href="#">Content Library</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Templates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Resources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Morning Matcha</a>
+                        <a class="dropdown-item" href="#">Toolkit</a>
+                    </div>
+                </li>
             </ul>
-        </nav>
-        <div class="container-acciones">
-            <a>Sign In</a><button>Get started free</button>
+            <form class="form-inline my-2 my-lg-0 mr-2">
+                <a class="nav-link colVer font-weight-bold" href="#">Sign In</a>
+                <button class="btn my-2 my-sm-0 buttonNav" type="submit">Get Started free</button>
+            </form>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <h1>Optimize your blog. <br> Measure the results.</h1>
-        <p>Blog better with the first all-in-one blogging tool for growing ecommerce brands. Connect your blog, create and optimize blog posts for each stage of the buyer’s journey, and measure the results.</p>
-        <button>Start free trial</button>
-        <figure class="banner">
-            <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg" alt="Shopify" />
-        </figure>
-        <p class="text-banner">
-            Blog better today with a <strong>free 7-day trial.</strong>
-            <br>
-            <strong>No credit card</strong> required.
-        </p>
-        <article class="item-video">
-            <video controls poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
-                <source
-                    type="video/webm"
-                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
-                />
-                <source
-                    type="video/mp4"
-                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
-                />
-            </video>
-        </article>
-    </main>
+    <div class="container mt-5 text-md-start text-center">
+        <div class="row main">
+            <div class="col-12 col-lg-6">
+                <h1>Optimize your blog. <br> Measure the results.</h1>
+                <p>Blog better with the first all-in-one blogging tool for growing ecommerce brands. Connect your blog, create and optimize blog posts for each stage of the buyer’s journey, and measure the results.</p>
+                <button>Start free trial</button>
+                <figure class="banner">
+                    <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/shopify-stars.svg" alt="Shopify" />
+                </figure>
+                <p class="text-banner">
+                    Blog better today with a <strong>free 7-day trial.</strong>
+                    <br>
+                    <strong>No credit card</strong> required.
+                </p>
+            </div>
+            <div class="col-12 col-lg-6">
+                <video controls poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+                    <source
+                        type="video/webm"
+                        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                    />
+                    <source
+                        type="video/mp4"
+                        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                    />
+                </video>
+            </div>
+        </div>
+    </div>
 
-    <section class="brands">
-        <h3>Trusted By Growing Ecommerce Brands</h3>
-        <div class="brands-img">
+    <div class="container">
+        <div class="row text-secondary d-flex justify-content-center mb-5 mt-5">
+            <h5 class="brands-text">Trusted By Growing Ecommerce Brands</h5>
+        </div>
+        <div class="row d-flex justify-content-center brands">
             <img src="https://getmatcha.com/wp-content/uploads/2020/08/superfeet.png" alt="superfeet">
             <img src="https://getmatcha.com/wp-content/uploads/2020/08/spirithoods.png" alt="spirithoods">
             <img src="https://getmatcha.com/wp-content/uploads/2020/08/seatosummit.png" alt="seatosummit">
@@ -64,7 +102,20 @@
             <img src="https://getmatcha.com/wp-content/uploads/2020/08/oars.png" alt="oarsapls">
             <img src="https://getmatcha.com/wp-content/uploads/2020/08/everly.png" alt="everly">
         </div>
-    </section>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <section class="features">
         <h2>Top Features</h2>
