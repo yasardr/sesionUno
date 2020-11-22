@@ -316,71 +316,9 @@ footer {
         font-weight: 700;
     }
     /*Footer*/
-    footer {
-        padding-bottom: 60px;
-        background-color: #fffbf7;
-        padding-top: 30px;
-    }
-    .lists-footer {
-        margin-bottom: 60px;
-    }
     .list-footer>p {
-        color: #4a4a4a;
-        font-weight: 400;
-        line-height: 25px;
-        font-size: 19px;
-    }
-    .btn-subscribe>input {
-        height: 48px;
-        width: auto;
-        border: 1px solid black;
-        border-radius: 5px 0 0 5px;
-        font-size: 14px;
-        font-weight: 400;
-        cursor: pointer;
-        padding-left: 15px;
-    }
-    .btn-subscribe>button {
-        height: 48px;
-        width: auto;
-        border: 0;
-        color: white;
-        border-radius: 0 5px 5px 0;
-        font-size: 14px;
-        font-weight: 400;
-        background-color: #025157;
-        cursor: pointer;
-    }
-    .btn-subscribe>button:hover {
-        background-color: #6abf4b;
-    }
-    .list-footer>ul {
-        list-style: none;
-        padding: 0;
-        margin-top: 20px;
-    }
-    .list-footer>ul>li {
-        font-weight: 400;
-        font-size: 19px;
-        color: #4a4a4a;
-        margin-bottom: 16px;
-    }
-    .list-footer>h3 {
-        font-weight: 500;
-        line-height: 17px;
-        font-size: 20px;
-        color: #025157;
-        margin-bottom: 20px;
-        margin-top: 50px;
-    }
-    .logo-footer {
-        width: 141;
-        height: auto;
-    }
-    .copyright {
-        color: #4a4a4a;
-        font-size: 14px;
-        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -389,122 +327,40 @@ footer {
 
 @media (min-width: 768px) and (max-width: 991px) {
     /*Header*/
-    .navbar {}
+    .navbar {
+        font-size: 30px;
+    }
     /*Main*/
-    main>h1 {
-        font-size: 70px;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    main>p {
-        font-size: 23px;
-        padding-left: 40px;
-        padding-right: 40px;
-        font-weight: 100;
-    }
-    main>button {
-        width: 90%;
-        font-size: 18px;
-    }
-    .text-banner {
-        font-size: 16px;
-    }
-    .item-video>video {
-        width: 90%;
-        margin-top: 20px;
-    }
-    /*Brands*/
-    .brands {
-        text-align: center;
+    .main>div>h1 {
+        font-weight: 900;
+        font-size: 60px;
     }
     /*Features*/
-    .feature-cards {
-        display: flex;
+    .title-features>div>h2 {
+        font-weight: 700;
+        font-size: 30px;
     }
-    .features>h2 {
-        font-size: 50px;
-    }
-    .features>p {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 60px;
-        font-size: 22px;
-    }
-    .features .feature-card .feature-content h3 {
+    .feature-content>h3 {
         font-size: 25px;
-        font-weight: 400;
-    }
-    .features .feature-card .feature-content p {
-        font-size: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-bottom: 60px;
     }
     /*Tools*/
-    .container-tools>h2 {
-        font-size: 40px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 60px;
+    .text-container-tools {
+        font-weight: 400;
+        font-size: 35px;
     }
-    .items-tool {
-        padding-left: 5%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+    /*Carrusel*/
+    .info-matcha>h2 {
+        font-weight: 500;
+        font-size: 30px;
+        padding-top: -20px;
     }
-    .item-tool {
-        width: 80%;
-    }
-    .item-tool h3 {
-        font-size: 20px;
-    }
-    .item-tool p {
-        font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
+    .info-matcha>p {
+        font-size: 25px;
     }
     /*Footer*/
-    .copyright {
-        display: inline-block;
-        margin-left: 10%;
-    }
-    .redes-sociales {
-        display: inline-block;
-        margin: 0;
-    }
-    .logo-footer {
-        display: block;
-        text-align: start;
-        margin-left: 20%;
-    }
-    .lists-footer {
-        display: flex;
-    }
-    .subscribe {
-        width: 50%;
-        text-align: start;
-        margin-left: 10px;
-    }
-    .list-footer {
-        display: inline-block;
-        text-align: start;
-        margin: 20px;
-    }
     .list-footer>p {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .list-footer>ul>li {
-        font-size: 20px;
-    }
-    .list-footer>h3 {
-        font-weight: 300;
-        font-size: 16px;
-    }
-    .list-a {
-        display: flex;
-        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -514,130 +370,38 @@ footer {
 @media (min-width: 992px) and (max-width: 1199px) {
     /*Header*/
     /*Main*/
-    main {
-        text-align: start;
+    .main {
+        text-align: left;
     }
-    main>h1 {
-        font-size: 60px;
-        padding-left: 50px;
-        width: 50%;
+    .main>div>h1 {
+        font-size: 35px;
     }
-    main>p {
-        font-size: 22px;
-        padding-left: 40px;
+    .main>div>p {
+        font-size: 20px;
         font-weight: 100;
-        width: 50%;
     }
-    main>button {
+    .main>div>button {
         width: 160px;
         font-size: 18px;
-        margin-left: 40px;
     }
     .banner {
         display: inline;
         margin: 0 0 0 20px;
     }
     .text-banner {
-        font-size: 16px;
-    }
-    .item-video>video {
-        width: 40%;
-        float: right;
-        margin-top: -350px;
-        margin-right: 20px;
+        font-size: 15px !important;
+        color: #8B8B8B;
     }
     /*Brands*/
-    .brands {
-        text-align: center;
-        margin-left: 3%;
-    }
     /*Features*/
-    .feature-cards {
-        display: flex;
-    }
-    .features>h2 {
-        font-size: 50px;
-    }
-    .features>p {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 60px;
-        font-size: 22px;
-    }
-    .features .feature-card .feature-content h3 {
-        font-size: 25px;
-        font-weight: 400;
-    }
-    .features .feature-card .feature-content p {
-        font-size: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-bottom: 60px;
-    }
     /*Tools*/
-    .container-tools>h2 {
-        font-size: 40px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 60px;
-    }
-    .items-tool {
-        padding-left: 5%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-    .item-tool {
-        width: 80%;
-    }
-    .item-tool h3 {
-        font-size: 20px;
-    }
-    .item-tool p {
-        font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     /*Footer*/
-    .copyright {
-        display: inline-block;
-        margin-left: 10%;
-    }
     .redes-sociales {
-        display: inline-block;
-        margin-right: 10%;
+        justify-content: left !important;
     }
     .logo-footer {
-        display: inline-block;
-        text-align: start;
-        margin-right: 30px;
-    }
-    .lists-footer {
-        display: flex;
-    }
-    .subscribe {
-        width: 50%;
-        text-align: start;
-        padding-left: 20px;
-    }
-    .list-footer {
-        display: inline-block;
-        text-align: start;
-        margin: 18px;
-    }
-    .list-footer>p {
-        padding-right: 30px;
-    }
-    .list-footer>ul>li {
-        font-size: 20px;
-    }
-    .list-footer>h3 {
-        font-weight: 300;
-        font-size: 16px;
-    }
-    .list-a {
-        display: flex;
-        justify-content: space-around;
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -648,128 +412,36 @@ footer {
     /*Header*/
     /*Main*/
     .main {
-        text-align: start;
+        text-align: left;
     }
-    main>h1 {
-        font-size: 60px;
-        padding-left: 10px;
-        width: 50%;
+    .main>div>h1 {
+        font-size: 35px;
     }
-    main>p {
-        font-size: 22px;
-        padding-left: 10px;
+    .main>div>p {
+        font-size: 20px;
         font-weight: 100;
-        width: 50%;
     }
-    main>button {
+    .main>div>button {
         width: 160px;
         font-size: 18px;
-        margin-left: 10px;
     }
     .banner {
         display: inline;
         margin: 0 0 0 20px;
     }
     .text-banner {
-        font-size: 16px;
-    }
-    .item-video>video {
-        width: 45%;
-        float: right;
-        margin-top: -350px;
-        margin-right: 20px;
+        font-size: 15px !important;
+        color: #8B8B8B;
     }
     /*Brands*/
-    .brands {
-        text-align: center;
-        margin-left: 3%;
-    }
     /*Features*/
-    .feature-cards {
-        display: flex;
-    }
-    .features>h2 {
-        font-size: 50px;
-    }
-    .features>p {
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 60px;
-        font-size: 22px;
-    }
-    .features .feature-card .feature-content h3 {
-        font-size: 25px;
-        font-weight: 400;
-    }
-    .features .feature-card .feature-content p {
-        font-size: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-        margin-bottom: 60px;
-    }
     /*Tools*/
-    .container-tools>h2 {
-        font-size: 40px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: 60px;
-    }
-    .items-tool {
-        padding-left: 2%;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .item-tool {
-        width: 80%;
-    }
-    .item-tool h3 {
-        font-size: 20px;
-    }
-    .item-tool p {
-        font-size: 18px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
     /*Footer*/
-    .copyright {
-        display: inline-block;
-        margin-left: 20%;
-    }
     .redes-sociales {
-        display: inline-block;
-        margin-right: 10%;
+        justify-content: left !important;
     }
     .logo-footer {
-        display: inline-block;
-        text-align: start;
-        margin-right: 30px;
-    }
-    .lists-footer {
-        display: flex;
-    }
-    .subscribe {
-        width: 50%;
-        text-align: start;
-        padding-left: 20px;
-    }
-    .list-footer {
-        display: inline-block;
-        text-align: start;
-        margin: 18px;
-        padding: 12px;
-    }
-    .list-footer>p {
-        padding-right: 30px;
-    }
-    .list-footer>ul>li {
-        font-size: 20px;
-    }
-    .list-footer>h3 {
-        font-weight: 300;
-        font-size: 16px;
-    }
-    .list-a {
-        display: flex;
-        justify-content: space-between;
+        padding: 0;
+        margin: 0;
     }
 }
