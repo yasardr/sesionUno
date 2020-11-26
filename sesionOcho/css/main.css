@@ -1,0 +1,90 @@
+/** main.scss */
+/** _global.scss */
+/** colores */
+/** fuentes */
+/*@import './mixin';
+@import './herencia';*/
+.texto-seccion {
+  margin-top: 10%;
+  margin-bottom: 50px;
+}
+.texto-seccion h2 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Helvetica;
+}
+.texto-seccion p {
+  font-size: 30px;
+  font-family: Helvetica;
+}
+.texto-seccion button {
+  font-size: 14px;
+  border-radius: 500px;
+  padding: 16px 48px 18px !important;
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+  width: 300px;
+  font-weight: 600;
+  line-height: 1;
+}
+.texto-seccion button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.tarjeta {
+  box-shadow: 5px 5px 20px gray;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.tarjeta:hover {
+  box-shadow: 10px 10px 20px gray;
+  border: 1px solid gray;
+}
+
+footer {
+  padding: 150px;
+  color: grey;
+  background-color: black;
+  padding-top: 150px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-left {
+  margin-right: 1.25cm;
+  margin-bottom: 2cm;
+}
+
+#img-footer {
+  height: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2cm;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.foot {
+  display: flex;
+}
+
+.listas-pdm li a {
+  color: white !important;
+}
+
+.final-foo a {
+  color: gray;
+}
+
+/*# sourceMappingURL=main.css.map */
